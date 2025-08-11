@@ -77,3 +77,11 @@ Android-Kotlin/
 4. Jalankan Aplikasi (Jika bermasalah silahkan berdiskusi dengan AI)
    ```bash
     Gunakan emulator Android atau perangkat fisik
+
+## 📄 Lisensi
+Proyek ini dilisensikan di bawah [MIT License](LICENSE).
+
+---
+
+_Jangan ragu untuk memberikan bintang ⭐ pada repositori ini jika Anda merasa terbantu!_
+
