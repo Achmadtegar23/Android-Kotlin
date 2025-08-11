@@ -21,6 +21,8 @@ Tujuannya adalah untuk mempelajari dan mengimplementasikan dasar-dasar pengemban
 
 
 # 📂 Struktur Proyek
+
+```
 Android-Kotlin/
 ├── app/
 │   ├── src/
@@ -55,6 +57,7 @@ Android-Kotlin/
 ├── gradlew                                      # <-- Gradle wrapper script untuk Mac/Linux
 ├── gradlew.bat                                  # <-- Gradle wrapper script untuk Windows
 └── settings.gradle.kts                          # <-- Pengaturan modul dalam proyek
+```
 
 
 
