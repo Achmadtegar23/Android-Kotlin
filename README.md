@@ -22,14 +22,39 @@ Tujuannya adalah untuk mempelajari dan mengimplementasikan dasar-dasar pengemban
 
 # 📂 Struktur Proyek
 Android-Kotlin/
-│── app/
-│ ├── java/
-│ │ ├── com.example.androidkotlin/ # File Kotlin utama
-│ ├── res/ # Layout XML, drawable, values
-│ ├── AndroidManifest.xml
-│── gradle/
-│── build.gradle
-└── README.md
+├── app/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   │   └── com/
+│   │   │   │       └── example/
+│   │   │   │           └── namaprojectanda/
+│   │   │   │               ├── MainActivity.kt      # <-- File kode Kotlin utama
+│   │   │   │               └── (file-file Kotlin lainnya...)
+│   │   │   ├── res/
+│   │   │   │   ├── drawable/                      # <-- Gambar, ikon, bentuk XML
+│   │   │   │   ├── layout/
+│   │   │   │   │   └── activity_main.xml        # <-- File layout UI (XML)
+│   │   │   │   ├── mipmap/                        # <-- Ikon aplikasi (ic_launcher)
+│   │   │   │   └── values/
+│   │   │   │       ├── colors.xml
+│   │   │   │       ├── strings.xml
+│   │   │   │       └── themes.xml
+│   │   │   └── AndroidManifest.xml              # <-- Manifest aplikasi (izin, komponen)
+│   │   ├── test/                                # <-- Direktori untuk Unit Test
+│   │   └── androidTest/                         # <-- Direktori untuk Instrumented Test
+│   ├── build.gradle.kts                         # <-- Konfigurasi build khusus untuk modul 'app'
+│   └── proguard-rules.pro                     # <-- Aturan ProGuard untuk optimasi kode
+│
+├── gradle/
+│   └── wrapper/
+│
+├── .gitignore
+├── build.gradle.kts                             # <-- Konfigurasi build untuk SELURUH proyek
+├── gradle.properties
+├── gradlew                                      # <-- Gradle wrapper script untuk Mac/Linux
+├── gradlew.bat                                  # <-- Gradle wrapper script untuk Windows
+└── settings.gradle.kts                          # <-- Pengaturan modul dalam proyek
 
 
 
